@@ -13,7 +13,7 @@
 
     <v-row class="mb-12 text-center">
       <v-col></v-col>
-      <v-col cols="6" class="mb-4">
+      <v-col lg="6" md="6" cols="10" class="mb-4">
         <h1 class="display-1 font-weight-bold mb-3">
           Airlangga University Score Conversion
         </h1>

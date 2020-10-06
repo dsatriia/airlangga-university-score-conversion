@@ -20,7 +20,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="https://github.com/dsatriia/airlangga-university-score-conversion"
         target="_blank"
         text
       >
@@ -31,35 +31,29 @@
 
     <v-main>
       <HelloWorld/>
-          <v-bottom-navigation
-      :value="0"
-      fixed
-      color="primary"      
-      horizontal          
-    >
-      <v-btn>
-        <span>Score Conversion</span>
+      <v-bottom-navigation      
+        fixed
+        color="primary"      
+        horizontal          
+      >
+        <v-btn @click="gotoUrl('https://github.com/dsatriia')">
+          <span>Github</span>
 
-        <v-icon>mdi-history</v-icon>
-      </v-btn>
-      <v-btn @click="gotoUrl('https://github.com/dsatriia')">
-        <span>Github</span>
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
 
-        <v-icon>mdi-github</v-icon>
-      </v-btn>
+        <v-btn @click="gotoUrl('https://linkedin.com/in/dsatriia')">
+          <span>Linkedin</span>
 
-      <v-btn @click="gotoUrl('https://linkedin.com/in/dsatriia')">
-        <span>Linkedin</span>
+          <v-icon>mdi-linkedin</v-icon>
+        </v-btn>
 
-        <v-icon>mdi-linkedin</v-icon>
-      </v-btn>
+        <v-btn @click="gotoUrl('https://instagram.com/dsatriia')">
+          <span>Instagram</span>
 
-      <v-btn @click="gotoUrl('https://instagram.com/dsatriia')">
-        <span>Instagram</span>
-
-        <v-icon>mdi-instagram</v-icon>
-      </v-btn>
-    </v-bottom-navigation>
+          <v-icon>mdi-instagram</v-icon>
+        </v-btn>
+      </v-bottom-navigation>
     </v-main>
   </v-app>
 </template>
