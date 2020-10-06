@@ -1,10 +1,9 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="white"
+    <v-app-bar      
+      color="yellow accent-4"
       light
-      dense
+      dense      
     >
       <div class="d-flex align-center">
 
@@ -32,6 +31,35 @@
 
     <v-main>
       <HelloWorld/>
+          <v-bottom-navigation
+      :value="0"
+      fixed
+      color="primary"      
+      horizontal          
+    >
+      <v-btn>
+        <span>Score Conversion</span>
+
+        <v-icon>mdi-history</v-icon>
+      </v-btn>
+      <v-btn>
+        <span>Github</span>
+
+        <v-icon>mdi-github</v-icon>
+      </v-btn>
+
+      <v-btn>
+        <span>Linkedin</span>
+
+        <v-icon>mdi-linkedin</v-icon>
+      </v-btn>
+
+      <v-btn>
+        <span>Instagram</span>
+
+        <v-icon>mdi-instagram</v-icon>
+      </v-btn>
+    </v-bottom-navigation>
     </v-main>
   </v-app>
 </template>

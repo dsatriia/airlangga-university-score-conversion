@@ -11,7 +11,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="text-center">
+    <v-row class="mb-12 text-center">
       <v-col></v-col>
       <v-col cols="6" class="mb-4">
         <h1 class="display-1 font-weight-bold mb-3">
@@ -67,7 +67,7 @@
               <v-btn
                 color="deep-purple lighten-2"
                 text
-                @click="reserve"
+                @click="reset"
               >
                 Reset
               </v-btn>
@@ -89,8 +89,9 @@
         </p>
       </v-col>
       <v-col></v-col>
-      
+
     </v-row>
+
   </v-container>
 </template>
 
@@ -108,7 +109,7 @@
       ]
     }),
     methods: {
-      reserve () {
+      reset () {
         const vm =this;
         this.loading = true
 
