@@ -42,19 +42,19 @@
 
         <v-icon>mdi-history</v-icon>
       </v-btn>
-      <v-btn>
+      <v-btn @click="gotoUrl('https://github.com/dsatriia')">
         <span>Github</span>
 
         <v-icon>mdi-github</v-icon>
       </v-btn>
 
-      <v-btn>
+      <v-btn @click="gotoUrl('https://linkedin.com/in/dsatriia')">
         <span>Linkedin</span>
 
         <v-icon>mdi-linkedin</v-icon>
       </v-btn>
 
-      <v-btn>
+      <v-btn @click="gotoUrl('https://instagram.com/dsatriia')">
         <span>Instagram</span>
 
         <v-icon>mdi-instagram</v-icon>
@@ -77,5 +77,13 @@ export default {
   data: () => ({
     //
   }),
+  methods: {
+    gotoUrl(url){
+      window.open(
+      url,
+      '_blank' 
+      );
+    }
+  }
 };
 </script>
