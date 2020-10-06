@@ -11,7 +11,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="mb-12 text-center">
+    <v-row class="mb-13 text-center">
       <v-col></v-col>
       <v-col lg="6" md="6" cols="10" class="mb-4">
         <h1 class="display-1 font-weight-bold mb-3">
@@ -81,11 +81,11 @@
             color="red darken-2"
           >
             mdi-cards-heart
-          </v-icon>
+          </v-icon> by 
           <a
             href="https://github.com/dsatriia"
             target="_blank"
-          >dsatriia</a> © 2020
+          >dsatriia</a>
         </p>
       </v-col>
       <v-col></v-col>
