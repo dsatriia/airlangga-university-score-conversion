@@ -9,4 +9,4 @@ This program is made for white-box testing in the system testing and implementat
 This program will convert numeric values into letters in accordance with the provisions set by Airlangga University.
 
 ## Main function
-You can find the function for the conversion in the Helloworld.vue file
+You can find the function for the conversion in the src/components/Helloworld.vue file
