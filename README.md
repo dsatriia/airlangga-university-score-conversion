@@ -1,4 +1,18 @@
-# airlangga-university-score-conversion
+# Airlangga University Score Conversion
+
+## Purpose
+This program is made for white-box testing in the system testing and implementation course.
+
+## Feature
+This program will convert numeric values into letters in accordance with the provisions set by Airlangga University.
+
+## Main Function
+You can find the function for the conversion in the Helloworld.vue file
+
+## Demo
+---
+Demo: https://dimassatria.tech/score-unair/
+---
 
 ## Project setup
 ```
