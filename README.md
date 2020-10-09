@@ -9,4 +9,4 @@ This program is made for white-box testing in the System Testing and Implementat
 This program will convert numeric score into letters in accordance with the provisions set by Airlangga University.
 
 ## Main function
-You can find the function for the conversion in the src/components/Helloworld.vue file
+You can find the function for the conversion in the src/components/ScoreConversion.vue file
