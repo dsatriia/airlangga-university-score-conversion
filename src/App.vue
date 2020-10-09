@@ -30,7 +30,7 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <ScoreConversion/>
       <v-bottom-navigation      
         fixed
         color="primary"      
@@ -59,13 +59,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import ScoreConversion from './components/ScoreConversion';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    ScoreConversion,
   },
 
   data: () => ({

@@ -97,7 +97,7 @@
 
 <script>
   export default {
-    name: 'HelloWorld',
+    name: 'ScoreConversion',
 
     data: () => ({
       loading: false,
@@ -116,9 +116,7 @@
         setTimeout(function(){vm.loading = false; vm.scoreValue = ''}, 1000);
       },
       convertScore(){
-        if(this.scoreValue == ''){
-          return '-'
-        } else if(parseFloat(this.scoreValue) >= 0 && parseFloat(this.scoreValue) < 40){
+        if(parseFloat(this.scoreValue) >= 0 && parseFloat(this.scoreValue) < 40){
           return 'E'
         } else if(parseFloat(this.scoreValue) >= 40 && parseFloat(this.scoreValue) < 55){
           return 'D'
