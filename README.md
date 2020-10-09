@@ -1,24 +1,12 @@
-# airlangga-university-score-conversion
+# Airlangga University Score Conversion
+## Demo
+https://dimassatria.tech/score-unair/
 
-## Project setup
-```
-npm install
-```
+## Purpose
+This program is made for white-box testing in the System Testing and Implementation Course.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Feature
+This program will convert numeric score into letters in accordance with the provisions set by Airlangga University.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Main function
+You can find the function for the conversion in the src/components/Helloworld.vue file
