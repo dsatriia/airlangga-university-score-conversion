@@ -2,7 +2,7 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/score-unair/'
-    : '/'
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/score-unair/'
+  //   : '/'
 }

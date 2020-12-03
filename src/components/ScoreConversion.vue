@@ -57,7 +57,7 @@
                     color="indigo"
                     size="80"
                   >
-                    <span class="white--text headline">{{convertScore()}}</span>
+                    <span class="white--text headline">{{convertScore(scoreValue)}}</span>
                   </v-avatar>
 
               </v-chip-group>
@@ -96,6 +96,7 @@
 </template>
 
 <script>
+import convertScore from "../../helpers/scoreConversion"
   export default {
     name: 'ScoreConversion',
 
@@ -115,25 +116,7 @@
 
         setTimeout(function(){vm.loading = false; vm.scoreValue = ''}, 1000);
       },
-      convertScore(){
-        if(parseFloat(this.scoreValue) >= 0 && parseFloat(this.scoreValue) < 40){
-          return 'E'
-        } else if(parseFloat(this.scoreValue) >= 40 && parseFloat(this.scoreValue) < 55){
-          return 'D'
-        } else if(parseFloat(this.scoreValue) >= 55 && parseFloat(this.scoreValue) < 60){
-          return 'C'
-        } else if(parseFloat(this.scoreValue) >= 60 && parseFloat(this.scoreValue) < 65){
-          return 'BC'
-        } else if(parseFloat(this.scoreValue) >= 65 && parseFloat(this.scoreValue) < 70){
-          return 'B'
-        } else if(parseFloat(this.scoreValue) >= 70 && parseFloat(this.scoreValue) < 75){
-          return 'AB'
-        } else if(parseFloat(this.scoreValue) >= 75 && parseFloat(this.scoreValue) <= 100){
-          return 'A'
-        } else {
-          return '-'
-        }
-      }
+      convertScore      
     },
   }
 </script>
